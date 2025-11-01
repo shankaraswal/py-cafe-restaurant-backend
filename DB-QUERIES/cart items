@@ -1,0 +1,6 @@
+SELECT id,
+       cart_id,
+       menu_item_id,
+       quantity
+FROM public.cart_items
+LIMIT 1000;

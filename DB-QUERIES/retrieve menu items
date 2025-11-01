@@ -1,0 +1,7 @@
+SELECT id,
+       name,
+       description,
+       price,
+       image_url
+FROM public.menu_items
+LIMIT 1000;

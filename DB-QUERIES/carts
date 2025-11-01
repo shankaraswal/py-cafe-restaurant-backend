@@ -1,0 +1,5 @@
+SELECT id,
+       session_id,
+       created_at
+FROM public.carts
+LIMIT 1000;

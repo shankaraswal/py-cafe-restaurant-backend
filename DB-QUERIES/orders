@@ -1,0 +1,7 @@
+SELECT id,
+       cart_id,
+       status,
+       total_amount,
+       created_at
+FROM public.orders
+LIMIT 1000;
